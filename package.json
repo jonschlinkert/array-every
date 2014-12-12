@@ -1,0 +1,36 @@
+{
+  "name": "array-every",
+  "description": "Returns true if the callback returns truthy for all elements in the given array.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/array-every",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonschlinkert/array-every.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/array-every/issues"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/jonschlinkert/array-every/blob/master/LICENSE-MIT"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "keywords": [],
+  "dependencies": {
+    "make-iterator": "^0.1.1"
+  }
+}
