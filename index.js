@@ -11,12 +11,9 @@ var iterator = require('make-iterator');
 
 module.exports = function every(arr, cb, thisArg) {
   cb = iterator(cb, thisArg);
-
   var res = true;
-  if (arr == null) {
-    return res;
-  }
 
+  if (arr == null) return res;
   var len = arr.length;
   var i = 0;
 
